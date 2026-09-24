@@ -1,4 +1,4 @@
-# Diana Villamizar — Portafolio fotográfico
+# Catalina Villamizar — Portafolio fotográfico
 
 Sitio académico de cuatro páginas para presentar un estudio fotográfico personal. Está creado con **HTML, CSS y JavaScript**, sin frameworks ni pasos de compilación.
 
@@ -20,7 +20,7 @@ Abre `index.html` en un navegador. Para simular un servidor web, también puedes
 
 ## Funcionamiento del contacto
 
-El formulario valida los campos y prepara un correo mediante `mailto:`. **No envía datos por sí solo**: la persona debe enviarlo desde su aplicación de correo. El email, el teléfono y los enlaces sociales son datos de demostración; reemplázalos por los reales antes de usar el sitio para recibir clientes. El enlace de WhatsApp abre WhatsApp con un texto preparado, sin un número configurado.
+El formulario valida los campos y prepara un correo mediante `mailto:`. **No envía datos por sí solo**: la persona debe enviarlo desde su aplicación de correo. El correo `katalinavp05@gmail.com`, el teléfono `+57 301 698 4786` y el botón de WhatsApp corresponden a Catalina. Los enlaces de Instagram y Pinterest siguen siendo de demostración.
 
 ## Publicación
 
@@ -31,4 +31,6 @@ La zona de `cvfotostudio.com` usa los nameservers `joyce.ns.cloudflare.com` y `s
 ## Imágenes
 
 Las siete fotografías de `images/` fueron generadas para este proyecto mediante ImageGen. No dependen de bancos de imágenes externos.
+
+
 

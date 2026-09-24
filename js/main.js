@@ -35,9 +35,10 @@ if (contactForm) {
     const fields = new FormData(contactForm);
     const subject = `Consulta fotográfica de ${fields.get('nombre')}`;
     const body = `Nombre: ${fields.get('nombre')}\nCorreo: ${fields.get('correo')}\nTeléfono: ${fields.get('telefono') || 'No indicado'}\n\nMensaje:\n${fields.get('mensaje')}`;
-    const mailto = `mailto:hola@cvfotostudio.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const mailto = `mailto:katalinavp05@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     feedback.textContent = 'Se abrirá tu aplicación de correo con el mensaje preparado. Recuerda enviarlo desde allí.';
     window.location.href = mailto;
   });
 }
+
 

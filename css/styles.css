@@ -1,4 +1,4 @@
-/* Diana Villamizar — sitio estático, sin dependencias. */
+/* Catalina Villamizar — sitio estático, sin dependencias. */
 :root {
   --paper:#f7f4ef;
   --white:#fff;
@@ -777,6 +777,9 @@ p {
   font-size:.85rem;
   color:#d9d3cc
 }
+.footer-top a {
+  overflow-wrap:anywhere
+}
 .footer-top a:hover {
   color:white;
   text-decoration:underline
@@ -1018,4 +1021,5 @@ p {
   }
 
 }
+
 
