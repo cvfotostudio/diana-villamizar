@@ -24,9 +24,9 @@ El formulario valida los campos y prepara un correo mediante `mailto:`. **No env
 
 ## Publicación
 
-El sitio está preparado para Cloudflare Pages con integración GitHub. Selecciona este repositorio, rama `main`, sin framework, deja vacío el comando de compilación y utiliza `/` como directorio de salida. Cada cambio subido a `main` se publicará automáticamente.
+El código está en [GitHub](https://github.com/cvfotostudio/diana-villamizar) y el sitio está publicado en [Cloudflare Pages](https://diana-villamizar.pages.dev) con el dominio principal [cvfotostudio.com](https://cvfotostudio.com). La publicación actual se hizo mediante carga directa a Pages. **Los cambios en GitHub todavía no se despliegan automáticamente:** la conexión nativa de Pages con GitHub devolvió el error `8000011` de instalación de Git. Para activar el despliegue automático, revisa la instalación de la aplicación Cloudflare Pages en la cuenta GitHub y conecta este repositorio desde Cloudflare. El sitio no requiere compilación: rama `main`, sin framework, comando de compilación vacío y directorio de salida `/`.
 
-La zona de `cvfotostudio.com` ya fue creada en Cloudflare. En Namecheap, cambia **Domain → Manage → Nameservers** a **Custom DNS** y configura exactamente `joyce.ns.cloudflare.com` y `shane.ns.cloudflare.com`. Después de la activación de la zona, añade `cvfotostudio.com` y `www.cvfotostudio.com` en **Custom domains** del proyecto de Pages. Es preferible usar el dominio raíz como URL principal y redirigir `www` hacia él. No añadas registros A con direcciones IP inventadas: Pages creará los registros necesarios cuando la zona esté activa.
+La zona de `cvfotostudio.com` usa los nameservers `joyce.ns.cloudflare.com` y `shane.ns.cloudflare.com`. Ambos dominios, `cvfotostudio.com` y `www.cvfotostudio.com`, están asociados al proyecto. Los registros CNAME proxied apuntan a `diana-villamizar.pages.dev`; una regla 301 redirige `www` al dominio raíz y conserva ruta y parámetros.
 
 ## Imágenes
 
