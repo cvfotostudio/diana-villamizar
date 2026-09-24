@@ -20,7 +20,7 @@ Abre `index.html` en un navegador. Para simular un servidor web, también puedes
 
 ## Funcionamiento del contacto
 
-El formulario valida los campos y prepara un correo mediante `mailto:`. **No envía datos por sí solo**: la persona debe enviarlo desde su aplicación de correo. El correo `katalinavp05@gmail.com`, el teléfono `+57 301 698 4786` y el botón de WhatsApp corresponden a Catalina. Los enlaces de Instagram y Pinterest siguen siendo de demostración.
+El formulario valida los campos y prepara un correo mediante `mailto:`. **No envía datos por sí solo**: la persona debe enviarlo desde su aplicación de correo. El correo `katalinavp05@gmail.com`, el teléfono `+57 301 698 4786` , el botón de WhatsApp y el perfil de Instagram corresponden a Catalina. El enlace de Pinterest sigue siendo de demostración.
 
 ## Publicación
 
