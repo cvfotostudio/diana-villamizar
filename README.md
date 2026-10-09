@@ -30,7 +30,7 @@ La zona de `cvfotostudio.com` usa los nameservers `joyce.ns.cloudflare.com` y `s
 
 ## Imágenes
 
-Las siete fotografías de `images/` fueron generadas para este proyecto mediante ImageGen. No dependen de bancos de imágenes externos.
+Las fotografías originales de las otras secciones fueron generadas para este proyecto mediante ImageGen. Las seis fotografías de la celebración de quince años fueron proporcionadas por Catalina Villamizar y aparecen en la categoría Eventos.
 
 
 
